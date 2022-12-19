@@ -3,7 +3,7 @@ import classes from "./SearchIcon.module.css";
 
 const SearchIcon = (props) => {
   const gotoSearchPage = () => {
-    const path = "/search";
+    const path = "/react-gh-pages/search";
     const returnUrl =
       window.location.protocol + "//" + window.location.host + path;
     window.location.replace(returnUrl);

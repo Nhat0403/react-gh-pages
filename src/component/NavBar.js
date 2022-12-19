@@ -28,7 +28,7 @@ const NavBar = (props) => {
 
   // hàm di chuyển tới trang browse
   const gotoBrowsePageHandler = () => {
-    const path = "/";
+    const path = "/react-gh-pages";
     // định dạng đường dẫn trang browse
     const returnUrl =
       window.location.protocol + "//" + window.location.host + path;
