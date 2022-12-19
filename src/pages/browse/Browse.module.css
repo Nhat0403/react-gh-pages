@@ -1,0 +1,10 @@
+.browse {
+  background-color: #0f0f0f;
+}
+
+.title {
+  background-color: transparent;
+  color: white;
+  padding: 1rem;
+  margin-top: 3rem;
+}

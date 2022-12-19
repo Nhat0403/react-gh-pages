@@ -1,0 +1,60 @@
+.container {
+  padding-top: 130px;
+}
+
+.form {
+  background-color: white;
+  width: 30rem;
+  height: 13rem;
+  margin: 0 auto;
+  border: none;
+  position: relative;
+}
+
+.top {
+  padding: 1rem;
+  padding-bottom: 0;
+  display: flex;
+  justify-items: center;
+  justify-content: space-between;
+}
+
+.input {
+  width: 90%;
+}
+
+.bot {
+  width: 100%;
+  border-top: 5px solid rgb(103, 207, 255);
+  padding: 2rem;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.reset {
+  background-color: transparent;
+}
+
+.search {
+  background-color: rgb(103, 207, 255);
+  color: white;
+}
+
+.invalid {
+  color: red;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 0.5rem;
+}
+
+.title {
+  color: white;
+  margin: 3rem 0 1rem 0;
+  padding: 1rem;
+}
