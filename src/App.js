@@ -8,8 +8,8 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Browse />} />
-        <Route path="/search" element={<Search />} />
+        <Route path="/react-gh-pages" element={<Browse />} />
+        <Route path="/react-gh-pages/search" element={<Search />} />
       </Routes>
     </BrowserRouter>
   );
